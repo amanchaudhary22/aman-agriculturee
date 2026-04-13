@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aman Agriculture</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(to right, #1b5e20, #66bb6a);
+color:white;
+text-align:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* Title animation */
+h1{
+font-size:40px;
+animation:fadeIn 2s ease-in-out, zoom 2s;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes zoom{
+from{transform:scale(0.5);}
+to{transform:scale(1);}
+}
+
+/* Buttons */
+.btn{
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:white;
+color:#1b5e20;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#c8e6c9;
+transform:scale(1.1);
+}
+
+/* Grid */
+.menu{
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌱 Aman Agriculture 🌾</h1>
+
+<a href="index.html" class="btn">Enter Website 🚀</a>
+
+<div class="menu">
+
+<a href="wheat.html" class="btn">Wheat 🌾</a>
+<a href="rice.html" class="btn">Rice 🍚</a>
+<a href="sugarcane.html" class="btn">Sugarcane 🌿</a>
+<a href="potato.html" class="btn">Potato 🥔</a>
+<a href="mustard.html" class="btn">Mustard 🌼</a>
+<a href="contact.html" class="btn">Contact 📞</a>
+
+</div>
+
+</body>
+</html>
